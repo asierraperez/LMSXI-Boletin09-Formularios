@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <form action="http://moodle.danielcastelao.org/daw/action_page.php" method="get">
+        <label for="NIF">NIF: </label>
+        <input type="text" name="NIF"><br><br>
+
+        <label for="Nombre">Nombre: </label>
+        <input type="text" name="Nombre"><br><br>
+
+        <label for="Apellido">Apellido: </label>
+        <input type="text" name="Apellido"><br><br>
+
+        <label for="Edad">Edad:</label><br>
+        <input type="radio" name="Edad" id="15-19" value="15-19">
+        <label for="rango1"> 15-19</label><br>
+        <input type="radio" name="Edad" id="20-29" value="20-29">
+        <label for="rango2"> 20-29</label><br>
+        <input type="radio" name="Edad" id="30-40" value="30-40">
+        <label for="rango3"> 30-40</label><br><br>
+
+        <label for="estado">Estado civil: </label><br>
+        <select name="estado" id="estado" size="4">
+            <option value="soltero">Soltero</option>
+            <option value="casado">Casado</option>
+            <option value="divorciado">Divorciado</option>
+        </select><br><br>
+
+        <label for="aficion">Aficiones: </label><br>
+        <input type="checkbox" name="aficiones" id="Cine" value="Cine">
+        <label for="opcion1"> Cine</label><br>
+        <input type="checkbox" name="aficiones" id="Deportes" value="Deportes">
+        <label for="opcion2"> Deportes</label><br>
+        <input type="checkbox" name="aficiones" id="Lectura" value="Lectura">
+        <label for="opcion3"> Lectura</label><br>
+        <input type="checkbox" name="aficiones" id="Senderismo" value="Senderismo">
+        <label for="opcion4"> Senderismo</label><br><br>
+
+        <label for="comentarios">Comentarios:</label><br>
+        <textarea name="comentario" id="comentario" cols="30" rows="10">Escribe aquí tus comentarios</textarea><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+
+</html>
